@@ -4,59 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 2</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
     <header>
       <!--Navigation Bar-->
-    <main>
       <nav>
-        <a href="./portfolio.html" title="Logo"> WEBSTUDIO </a>
-        <ul>
+        <a class="link-logo" href="./index.html" title="Logo">
+          <span class="web-logo"> WEB </span>
+          <span class="studio-logo"> STUDIO </span>
+        </a>
+        <ul class="navigationbar lists">
           <li>
-            <a href="#">Studio</a>
+            <a href="#" class="pages">Studio</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="./portfolio.html" class="pages currentoption">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <a href="#" class="pages">Contacts</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <ul class="contact-info lists">
+        <li>
+          <a href="mailto:info@devstudio.com" class="info"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+110001111111" class="info">+11 (000) 111-11-11</a>
+        </li>
       </ul>
     </header>
 
     <!--main-->
     <main>
       <!--section 1-->
-      <section>
-        <ul>
+      <section class="section-1">
+        <ul class="button-menu lists">
           <li>
-            <button type="button">All</button>
+            <button type="button" class="button primary">All</button>
           </li>
           <li>
-            <button type="button">Website</button>
+            <button type="button" class="buttons">Website</button>
           </li>
           <li>
-            <button type="button">App</button>
+            <button type="button" class="buttons">App</button>
           </li>
           <li>
-            <button type="button">Design</button>
+            <button type="button" class="buttons">Design</button>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <button type="button" class="buttons">Marketing</button>
           </li>
         </ul>
       </section>
 
       <!--Section 2-->
-      <section>
+      <section class="section-2">
         <div>
-          <ul>
+          <ul class="product-menu lists">
             <li>
               <img
                 src="images/banking-app-interface-concept.jpg"
@@ -64,8 +73,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Banking App Interface Concept</h3>
-              <p>App</p>
+              <h3 class="product-name">Banking App Interface Concept</h3>
+              <p class="product-label">App</p>
             </li>
             <li>
               <img
@@ -74,8 +83,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Cashless Payment</h3>
-              <p>Marketing</p>
+              <h3 class="product-name">Cashless Payment</h3>
+              <p class="product-label">Marketing</p>
             </li>
             <li>
               <img
@@ -84,8 +93,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Meditation App</h3>
-              <p>App</p>
+              <h3 class="product-name">Meditation App</h3>
+              <p class="product-label">App</p>
             </li>
             <li>
               <img
@@ -94,8 +103,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Taxi Service</h3>
-              <p>Marketing</p>
+              <h3 class="product-name">Taxi Service</h3>
+              <p class="product-label">Marketing</p>
             </li>
             <li>
               <img
@@ -104,8 +113,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Screen Illustrations</h3>
-              <p>Design</p>
+              <h3 class="product-name">Screen Illustrations</h3>
+              <p class="product-label">Design</p>
             </li>
             <li>
               <img
@@ -114,8 +123,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Online Courses</h3>
-              <p>Marketing</p>
+              <h3 class="product-name">Online Courses</h3>
+              <p class="product-label">Marketing</p>
             </li>
             <li>
               <img
@@ -124,8 +133,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Instagram Stories Concept</h3>
-              <p>Design</p>
+              <h3 class="product-name">Instagram Stories Concept</h3>
+              <p class="product-label">Design</p>
             </li>
             <li>
               <img
@@ -134,8 +143,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Organic Food</h3>
-              <p>Web Site</p>
+              <h3 class="product-name">Organic Food</h3>
+              <p class="product-label">Web Site</p>
             </li>
             <li>
               <img
@@ -144,8 +153,8 @@
                 width="370"
                 height="294"
               />
-              <h3>Fresh Coffee</h3>
-              <p>Web Site</p>
+              <h3 class="product-name">Fresh Coffee</h3>
+              <p class="product-label">Web Site</p>
             </li>
           </ul>
         </div>
@@ -153,16 +162,16 @@
     </main>
 
     <!--Footer-->
-    <footer>
+    <footer class="lastpart footerbg">
       <div>
-        <a href="./index.html" title="Logo"> WEBSTUDIO </a>
-        <p>
+        <a href="./index.html" title="Logo" class="link-logo">
+          <span class="web-logo"> WEB </span>
+          <span class="studio-logo2"> STUDIO </span>
+        </a>
+        <p class="footerdescript">
           Increase the flow of customers and <br />
           sales for your business with digital <br />
           marketing & growth solutions.
-        </p>
-        <p>
-          
         </p>
       </div>
     </footer>
